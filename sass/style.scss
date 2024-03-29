@@ -1,0 +1,162 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+
+html {
+    scroll-behavior: smooth;
+}
+
+$primary: #1B262C;  
+$secondary: #3282B8;
+$spacer: 1rem;
+
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 2.5,
+    5: $spacer * 10,
+);
+.logo{
+    width: 200px;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.about{
+    width: 100%;
+}
+.redemption-image{
+    width: 100%;
+    height: 85vh;
+}
+
+.redemption {
+    background-image: url('../img/redemptionBanner.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.redemption > div{
+    width: 40%;
+    height: fit-content;
+}
+
+.card-size > div{
+    height: 500px;
+}
+
+.gradient-bg{
+    background: linear-gradient(135deg, #1B262C, #0C405F, #3282B8, #BBE1FA);
+}
+
+.download-icons{
+    width: fit-content;
+    max-width: 120px;
+    display: block;
+}
+footer{
+    background: #1B262C;
+}
+
+.icon-color {
+    color: #BBE1FA
+}
+
+li{
+    list-style: none;
+}
+
+.package {
+    width: 350px;
+}
+
+.login {
+    height: 100%;
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.itemDescriptionContainer {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.size > button{
+    width: 275px;
+    height: 275px;
+}
+.size > button{
+    width: 275px;
+    height: 275px;
+}
+.size > button{
+    width: 275px;
+    height: 275px;
+}
+.size > button{
+    width: 275px;
+    height: 275px;
+}
+
+
+#packageNext,
+#packagePrev,
+#CoinNext,
+#CoinPrev {
+    height: 10%;
+    margin: auto;
+}
+
+#packagePrev, 
+#packageNext,
+#CoinNext,
+#CoinPrev {
+    width: fit-content;
+    padding: 30px 15px;
+}
+
+.dropdowntext{
+    color: #ffffff86 !important;
+}
+
+.form-control[disabled] {
+    cursor: not-allowed;
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.transaction-item{
+    width:1200px;
+}
+
+.gradient-custom {
+    background: #f6d365;
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+}
+
+.responsive{
+    height: fit-content; 
+    min-height: 60vh;
+}
+
+.widthresponsive{
+    width: fit-content; 
+    min-width: 60vh;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

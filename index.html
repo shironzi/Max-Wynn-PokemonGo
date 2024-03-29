@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <title>POKEMON GO</title>
+</head>
+<body>
+  <div class="custom-container-fluid text-primary">
+    <nav class="navbar bg-secondary fixed-top" style="padding: 5px 10%;">
+      <div class="d-flex justify-content-between" style="width: 100%;">
+        <a href="index.html" class="navbar-brand">
+          <img class="logo" src="img/logo maxwynn.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 me-3">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="index.html#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="index.html#redemption">REDEMPTION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="index.html#events">NEWS & EVENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="index.html#downloads">DOWNLOAD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="store.html">STORE</a>
+              </li>
+              <li class="dropdown nav-item">
+                <button class="border-0 dropdown-toggle bg-white fw-bold dropdowntext text-body-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ACCOUNT
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                  <li><a class="dropdown-item" href="transactionHistory.html">Transaction History</a></li>
+                  <li><a class="dropdown-item" href="register.html">Register</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="cart.html">CART</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner" id="banner">
+      <img class="banner-image" src="img/banner 2.png" alt="">
+    </div>
+    <div class="about p-5 text-center responsive" id="about" style="width: fit-content;">
+      <h1 class="font-italic">ABOUT</h1>
+      <p class="fs-5">
+        "Pokemon Go, a groundbreaking augmented reality game, allows players to immerse themselves in a fantastical world where they embark on real-world adventures, exploring streets, parks, and landmarks to catch, train, and battle virtual creatures known as Pokemon. With its innovative gameplay mechanics and seamless integration of digital and physical environments, Pokemon Go has captivated millions of players worldwide, fostering a global community united by their shared love for adventure, exploration, and the enduring charm of Pokemon."
+      </p>
+    </div>
+    <div class="redemption d-flex justify-content-center responsive" style="width: 100;">
+      <div class="card m-5 p-4">
+        <h2 class="card-text">The Pokémon GO Web Store offers a 15% discount on the first purchase of any item that costs $9.99 or more. This offer is limited time only.</h2>
+        <a href="login.html" class="btn btn-secondary btn-sm border border-1 rounded p-3 text-center mt-3">REDEEM OFFER</a>
+      </div>
+    </div>
+    <div class="justify-content-center p-5 responsive" id="events">
+      <h1 class="text-center mb-4">EVENTS</h1>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- SLIDE ONE -->
+          <div class="carousel-item event-item">
+            <div class="card-group card-size">
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SLIDE TWO -->
+          <div class="carousel-item event-item">
+            <div class="card-group card-size">
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SLIDE 3 -->
+          <div class="carousel-item event-item">
+            <div class="card-group card-size">
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/UMUdSS-Dpf4oaXzQvFXsaPk_Kp4sbHjw7a2m5iv9GweupkHa-mg8EBQC3V-_RXll5XOVHHDAhlq2tBAYM4BpzW_hiRVN5O26v8wqGwoHO44ezA=rw-e365-w1800" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/UMUdSS-Dpf4oaXzQvFXsaPk_Kp4sbHjw7a2m5iv9GweupkHa-mg8EBQC3V-_RXll5XOVHHDAhlq2tBAYM4BpzW_hiRVN5O26v8wqGwoHO44ezA=rw-e365-w1800" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card mx-2 rounded">
+                <img src="https://lh3.googleusercontent.com/UMUdSS-Dpf4oaXzQvFXsaPk_Kp4sbHjw7a2m5iv9GweupkHa-mg8EBQC3V-_RXll5XOVHHDAhlq2tBAYM4BpzW_hiRVN5O26v8wqGwoHO44ezA=rw-e365-w1800" class="card-img-top p-1 rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" id="prev-button">
+            <span class="carousel-control-prev-icon bg-primary py-4" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" id="next-button">
+            <span class="carousel-control-next-icon bg-primary py-4" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+      <div class="news py-5 responsive" id="news">
+        <h1 class="text-center mb-4">NEWS</h1>
+        <div class="carousel-inner">
+          <!-- slide 1 -->
+          <div class="carousel-item active news-item" id="newsSlide1">
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="img-fluid p-2 news-image" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div class="carousel-item news-item" id="newsSlide2">
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/UMUdSS-Dpf4oaXzQvFXsaPk_Kp4sbHjw7a2m5iv9GweupkHa-mg8EBQC3V-_RXll5XOVHHDAhlq2tBAYM4BpzW_hiRVN5O26v8wqGwoHO44ezA=rw-e365-w1800" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/UMUdSS-Dpf4oaXzQvFXsaPk_Kp4sbHjw7a2m5iv9GweupkHa-mg8EBQC3V-_RXll5XOVHHDAhlq2tBAYM4BpzW_hiRVN5O26v8wqGwoHO44ezA=rw-e365-w1800" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/UMUdSS-Dpf4oaXzQvFXsaPk_Kp4sbHjw7a2m5iv9GweupkHa-mg8EBQC3V-_RXll5XOVHHDAhlq2tBAYM4BpzW_hiRVN5O26v8wqGwoHO44ezA=rw-e365-w1800" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item news-item" id="newsSlide3">
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://lh3.googleusercontent.com/gcKZ6EJ65AYmiz11SozwHdmAO79Hhy4upPW8CPPgVpuThXGcHNKsMZiekT2TWe8pyjZXB1EFarnxN-AVJX93Feni7bI7mE-pNoWbmC3Bv3wlMA=rw-e365-w1440" class="img-fluid rounded-start p-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-end my-2" id="eventNavigation">
+          <button class="border bg-secondary text-light fw-semibold px-2 mx-1 eventButton1" id="">
+            1
+          </button>
+          <button class="border fw-semibold px-2 mx-1 eventButton2" id="">
+            2
+          </button>
+          <button class="border fw-semibold px-2 mx-1 eventButton3" id="">
+            3
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center responsive" id="downloads">
+          <div class="col-md-8 col-12">
+            <div class="card mt-3 gradient-bg">
+              <div class="row g-0 p-4">
+                <div class="col-md-12 col-12 mb-3 mb-md-0 d-flex justify-content-center">
+                  <img src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Flogo.png&w=256&q=75" class="img-fluid max-height-250" alt="...">
+                </div>
+                <div class="col-md-12 col-12">
+                  <div class="card-body text-light">
+                    <h1 class="card-title text-center">Get up and GO! <br>Download Today</h1>
+                    <div class="row justify-content-center mt-3">
+                      <div class="col-4 col-sm-auto">
+                        <a href="#" class="mx-2"><img src="https://store.pokemongolive.com/_next/image?url=%2Fos-images%2Fgoogle%2Fgoogle-play-badge.en.png&w=256&q=75" class="download-icons" alt=""></a>
+                      </div>
+                      <div class="col-4 col-sm-auto">
+                        <a href="#" class="mx-2"><img src="https://store.pokemongolive.com/_next/image?url=%2Fos-images%2Fgoogle%2Fgoogle-play-badge.en.png&w=256&q=75" class="download-icons" alt=""></a>
+                      </div>
+                      <div class="col-4 col-sm-auto">
+                        <a href="#" class="mx-2"><img src="https://store.pokemongolive.com/_next/image?url=%2Fos-images%2Fgoogle%2Fgoogle-play-badge.en.png&w=256&q=75" class="download-icons" alt=""></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="" style="padding: 0 10%;">
+    <div class="justify-content-center align-items-center py-3 bg-primary">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex">
+          <ul class="navbar-nav  icon-color">
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link ">HOME</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link ">ABOUT</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link ">REDEMPTION</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav icon-color ps-4">
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link">DOWNLOAD</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link ">EVENTS</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link ">NEWS</a>
+            </li>
+          </ul>
+          </div>
+          <div>
+            <a href=""><i class="bi bi-youtube mx-3 icon-color fs-4"></i></a>
+            <a href=""><i class="bi bi-facebook mx-3 icon-color fs-4"></i></a>
+            <a href=""><i class="bi bi-instagram mx-3 icon-color fs-4"></i></a>
+            <a href=""><i class="bi bi-tiktok mx-3 icon-color fs-4"></i></a>
+          </div>
+          <div>
+            <a href=""><img class="mx-2" src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Ftpc-logo.png&w=128&q=75" alt=""></a>
+            <a href=""><img class="mx-2" src="https://store.pokemongolive.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fniantic-logo.png&w=64&q=75" alt=""></a>
+          </div>
+        </div>
+        <hr class="text-light">
+        <div class="my-2">
+          <ul class="text-center d-flex justify-content-center">
+            <li class="col-md-1">
+              <a href="#!" class="text-white" style="text-decoration: none;">About us</a>
+            </li>
+            <li class="col-md-1">
+              <a href="#!" class="text-white" style="text-decoration: none;">Products</a>
+            </li>
+            <li class="col-md-1">
+              <a href="#!" class="text-white" style="text-decoration: none;">Awards</a>
+            </li>     
+            <li class="col-md-1">
+              <a href="#!" class="text-white" style="text-decoration: none;">Help</a>
+            </li>  
+            <li class="col-md-1">
+              <a href="#!" class="text-white"style="text-decoration: none;">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="text-light">
+      </div>
+      <div class="bg-primary icon-color text-center py-3 px-5">
+        <p>Pokémon GO is playable in English, French, German, Italian, Russian, Japanese, Spanish, Traditional Chinese, Korean, Thai, Brazillian Portuguese, Turkish, and Indonesian.</p>
+        <br>
+        <p> ©2023 Niantic, Inc. ©2023 Pokémon. ©1995 - 2023 Nintendo / Creatures Inc. / GAME FREAK inc. Pokémon and Pokémon character names are trademarks of Nintendo. Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC. During gameplay, please be aware of your surroundings and play safely.</p>
+      </div>
+    </div>
+  </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
